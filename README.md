@@ -18,19 +18,13 @@ Per a poder desplegar i executar aquest projecte pots utilitzar qualsevol d'aque
    mkdir intro_n
    $ docker run -it --name Intro_n -v /intro_n:/intro_n -p80:80 alpine
    # apk add git php
-   git clone 
+   # git clone https://github.com/iesbillenguatges/intro_n.git
+   # cd intro_n
+   # php -S 0.0.0.0:80
    ```
-2. Clona el repositori a la teua màquina local:
+2. Prova el port 80. Prova la app web amb 2 o 3 alumnes
+3. En altra pertanya o terminal (fora del contenidor) fes:
    ```bash
-   git clone https://github.com/iesbillenguatges/intro_n.git
-   ```
-3. Accedeix a la carpeta del projecte:
-   ```bash
-   cd intro_n
-   ```
-3. Inicia el servidor de proves de PHP en el port 8000:
-   ```bash
-   php -S localhost:8080
-   ```
-4. Obre el teu navegador web i visita: `http://localhost:8080`
-
+   $ cat /intro_n/alumnes.json
+   ``` 
+   Ara pots vore el json amb les dades dels alumnes
