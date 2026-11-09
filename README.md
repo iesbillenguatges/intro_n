@@ -17,13 +17,15 @@ Per a poder desplegar i executar aquest projecte necessites un entorn local que 
 
 ## Com desplegar-lo
 
-Tria una màquina virtual en killercoda, codespaces o google cloud shell
-
-1. Clona el repositori a la teua màquina local:
+1. Tria una màquina virtual en killercoda, codespaces o google cloud shell i fes:
+```bash
+docker run -it --name nuvol_n -v .:/ ubuntu
+```
+2. Clona el repositori a la teua màquina local:
    ```bash
-   git clone 
+   git clone https://github.com/iesbillenguatges/intro_n.git
    ```
-2. Accedeix a la carpeta del projecte:
+3. Accedeix a la carpeta del projecte:
    ```bash
    cd intro_n
    ```
