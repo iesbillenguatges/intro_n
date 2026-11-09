@@ -1,4 +1,4 @@
-# Introducció a PHP (intro_n)
+# Introducció al núvol
 
 Aquest és un repositori d'introducció creat pel departament de llenguatges de l'IES Biel Martí, dissenyat per a fer les primeres passes amb el llenguatge de programació PHP.
 
@@ -33,5 +33,5 @@ Tria un dels següents mètodes per a posar-lo en marxa:
    ```bash
    php -S localhost:8080
    ```
-4. Obre el teu navegador web i visita: `http://localhost:8000`
+4. Obre el teu navegador web i visita: `http://localhost:8080`
 
