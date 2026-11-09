@@ -11,16 +11,15 @@ El projecte conté una estructura web mínima en PHP (actualment formada per un 
 
 ## Requisits previs
 
-Per a poder desplegar i executar aquest projecte necessites un entorn local que suporte PHP. Pots utilitzar qualsevol d'aquestes opcions:
-* **XAMPP / WampServer / MAMP**: Paquets tot en un que inclouen Apache i PHP.
-* **Docker**: Si prefereixes utilitzar contenidors.
+Per a poder desplegar i executar aquest projecte pots utilitzar qualsevol d'aquestes opcions: una màquina virtual en killercoda, codespaces o google cloud shell.
 
-## Com desplegar-lo
-
-1. Tria una màquina virtual en killercoda, codespaces o google cloud shell i fes:
-```bash
-docker run -it --name nuvol_n -v .:/ ubuntu
-```
+1. Llança un contenidor de docker amb una unitat virtual
+   ```bash
+   mkdir intro_n
+   $ docker run -it --name Intro_n -v /intro_n:/intro_n -p80:80 alpine
+   # apk add git php
+   git clone 
+   ```
 2. Clona el repositori a la teua màquina local:
    ```bash
    git clone https://github.com/iesbillenguatges/intro_n.git
