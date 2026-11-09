@@ -15,7 +15,7 @@ Per a poder desplegar i executar aquest projecte pots utilitzar qualsevol d'aque
 
 1. Llança un contenidor de docker amb una unitat virtual
    ```bash
-   mkdir intro_n
+   $ mkdir intro_n
    $ docker run -it --name Intro_n -v /intro_n:/intro_n -p80:80 alpine
    # apk add git php
    # git clone https://github.com/iesbillenguatges/intro_n.git
