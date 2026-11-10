@@ -28,3 +28,16 @@ Per a poder desplegar i executar aquest projecte pots utilitzar qualsevol d'aque
    $ cat /intro_n/alumnes.json
    ``` 
    Ara pots vore el json amb les dades dels alumnes
+
+   ## Opció Docker
+   També pots llançar contenidor de docker amb la comanda:
+
+   ```bash
+   docker run -d -v .:/intro_n -p 80:80 xaviblanes/php-json sh -c "cd /intro_n && php -S 0.0.0.0:80"
+   ```
+   Pots vore el json fent:
+    ```bash
+   $ cat alumnes.json
+   ``` 
+   
+
